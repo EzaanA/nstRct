@@ -1,0 +1,69 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  border: solid black;
+  align-items: center;
+  padding: 0px 20px;
+} 
+
+.logoimg{
+  width: 100px;
+}
+
+.ulList{
+  display: flex;
+  flex-direction: row;
+}
+
+li{
+  list-style-type: none;
+  padding: 10px;
+  margin: 10px;
+}
+
+ul{
+  font-size: 25px;
+}
+
+.rescard{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(124, 111, 111);
+  padding: 5px;
+}
+
+.rescard img {
+  width: 100%;  /* Make the image take up the full width of the flex container */
+  /* height: auto; */
+  object-fit: contain;  /* This makes the image scale while maintaining its aspect ratio */
+  padding: 0px;
+  margin: 0px 13px;
+}
+.rating{
+  display: flex;
+  justify-content: space-around;
+}
+
+.rescard:hover{
+  cursor: pointer;
+  border: solid black;
+}
+
+.restaurantCard{
+  display: grid;
+  /* grid-template-rows: auto; */
+  /* grid-template-columns: min-content; */
+  /* grid-template-columns: max-content; */
+  grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+
+  gap: 2px;
+
+}
+
+
+h3{
+  padding: 0;
+  margin: 0;
+  margin-top: 15px;
+}
