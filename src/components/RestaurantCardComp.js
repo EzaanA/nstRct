@@ -1,5 +1,7 @@
 import { CDN_RestaurantCards } from "../utils/constants";
 
+// console.log("how");
+
 const RestaurantCardComp = (props)=>{
   // const{resName,cuisine,rating,minTime}=props
   // console.log(props);

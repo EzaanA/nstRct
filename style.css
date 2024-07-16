@@ -72,3 +72,161 @@ h3{
 .sort{
   margin: 10px;
 }
+
+.shimmerCards{
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: green; */
+}
+
+.buttns{
+  display: flex;
+}
+
+
+.shimmerCard{
+  height:582px;
+  width: 195px;
+  background-color: #f0f0f0;
+  /* padding: 44px; */
+  margin-left: 10px;
+  margin-top: 10px;
+  /* border: solid black; */
+}
+
+.btn{
+  height: 27.5px;
+  width: 170.5px;
+  background-color: #f0f0f0;
+  margin-left: 20px;
+  /* border: solid black; */
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.logiin{
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+}
+
+/* .searchbox{
+} */
+
+.topLine{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.Outl{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+
+  /* justify-content: center; */
+  align-items: center;
+
+}
+
+.topbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* margin: 0; */
+  width: fit-content;
+  padding: 100px;
+  margin-top: 100px;
+  /* border: solid black; */
+}
+
+.afterClick{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.boxInsideTop{
+  /* border: solid 2px; */
+  padding:0px 300px;
+  box-shadow: 10px 10px 30px grey;
+  border-radius: 11px;
+}
+
+.spn2{
+  margin-left: 15px;
+}
+
+.ItemsOfMenu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border:solid #f0f0f0;
+width: 600px;
+}
+
+
+.imageOfcards{
+  height: 100px;
+}
+
+.type{
+  height: 30px;
+  align-self:flex-start
+}
+
+.category{
+  display: flex;
+  flex-direction: column;;
+}
+
+.crds{
+}
+
+.imageOfcards{
+  position: absolute;
+  border-radius:5px ;
+  max-width: 100%; 
+  max-height: 100%; 
+  object-fit: cover;
+}
+
+.add{
+  position: relative;
+  padding: 6px 20px;
+  border-radius: 9px;
+  color: green;
+  font-style: bold;
+  border: none;
+  margin-top: 88px;
+ /* If you're using flex properties */
+/* Example alignment */
+}
+
+.imgabut{
+  display: flex;
+  justify-content: center;
+  margin-right: 70px;
+}
+
+.nvgbtn button{
+  padding: 6px 20px;
+  border-radius: 9px;
+  font-style: bold;
+  border: none;
+  border: solid #e2dddd;
+}
+
+.vg{
+  color: green;
+  
+}
+
+.nnvg{
+  color: red;
+  /* margin-left: 100px; */
+}
